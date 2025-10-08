@@ -1,0 +1,21 @@
+{
+  "name": "Espaço ZMagalhães",
+  "short_name": "ZMagalhães",
+  "description": "Beleza, bem-estar e autoestima com ZMagalhães.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f7f5f2",
+  "theme_color": "#b68c5a",
+  "icons": [
+    {
+      "src": "img/logo_zm.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/logo_zm.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

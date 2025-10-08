@@ -1,11 +1,11 @@
 const CACHE_NAME = "espaco-zmagalhaes-v1";
 const FILES_TO_CACHE = [
-  "./",
-  "./index.html",
-  "./css/style.css",
-  "./js/script.js",
-  "./js/sw-register.js",
-  "./img/logo_zm.png"
+  "/espaco-zmagalhaes/",
+  "/espaco-zmagalhaes/index.html",
+  "/espaco-zmagalhaes/css/style.css",
+  "/espaco-zmagalhaes/js/script.js",
+  "/espaco-zmagalhaes/js/sw-register.js",
+  "/espaco-zmagalhaes/img/logo_zm.png"
 ];
 
 // Instala e faz cache inicial

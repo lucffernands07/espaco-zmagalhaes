@@ -1,6 +1,6 @@
 const CACHE_NAME = "espaco-zmagalhaes-v1";
 const FILES_TO_CACHE = [
-  "/espaco-zmagalhaes/",
+  "/espaco-zmagalhaes/",                   // index.html
   "/espaco-zmagalhaes/index.html",
   "/espaco-zmagalhaes/css/style.css",
   "/espaco-zmagalhaes/js/script.js",

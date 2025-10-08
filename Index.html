@@ -4,7 +4,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Espaço ZMagalhães</title>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Manifesto PWA -->
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#b68c5a" />
+
+  <!-- Ícone -->
+  <link rel="icon" type="image/png" sizes="512x512" href="img/logo_zm.png" />
+
+  <!-- Script -->
   <script defer src="js/script.js"></script>
 </head>
 <body>
@@ -42,5 +53,14 @@
       </p>
     </section>
   </main>
+
+  <!-- Registrar o Service Worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log('✅ Service Worker registrado com sucesso.'))
+        .catch(err => console.log('⚠️ Erro ao registrar Service Worker:', err));
+    }
+  </script>
 </body>
-</html> 
+</html>

@@ -109,20 +109,44 @@ p {
 
 /* == Footer == */
 .footer {
+  position: fixed;       /* fixa no rodapé */
+  bottom: 0;
+  left: 0;
+  width: 100%;
   background-color: #b68c5a; /* mesma cor do header */
   color: #fff;
-  text-align: center;
-  padding: 15px 0;
-  margin-top: 40px;
+  display: flex;
+  justify-content: space-between; /* separa left e right */
+  align-items: center;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  z-index: 1000;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
 }
 
 .footer a {
-  display: inline-block;
-  margin-top: 5px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer a:hover {
+  opacity: 0.8;
 }
 
 .footer-icon {
-  width: 30px;
-  height: 30px;
-  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.footer-left, .footer-right {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  padding-bottom: 60px; /* evita que o conteúdo fique atrás do footer */
 }

@@ -115,15 +115,18 @@ p {
   width: 100%;
   background-color: #b68c5a; /* mesma cor do header */
   color: black;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 12px 30px; /* altura aumentada */
   box-sizing: border-box;
   font-size: 14px;
   z-index: 1000;
   box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
   min-height: 50px; /* garante espaço suficiente */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer a {

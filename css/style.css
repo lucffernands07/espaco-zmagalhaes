@@ -109,14 +109,14 @@ p {
 
 /* == Footer == */
 .footer {
-  position: fixed;       /* fixa no rodapé */
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   background-color: #b68c5a; /* mesma cor do header */
   color: #fff;
   display: flex;
-  justify-content: space-between; /* separa left e right */
+  justify-content: space-between; /* separa esquerda e direita */
   align-items: center;
   padding: 10px 30px;
   box-sizing: border-box;
@@ -126,10 +126,11 @@ p {
 }
 
 .footer a {
-  color: #fff;
-  text-decoration: none;
   display: flex;
   align-items: center;
+  text-decoration: none;
+  color: #fff;
+  gap: 5px; /* reduz o espaço entre ícone e texto */
 }
 
 .footer a:hover {
@@ -139,7 +140,6 @@ p {
 .footer-icon {
   width: 24px;
   height: 24px;
-  margin-right: 8px;
 }
 
 .footer-left, .footer-right {

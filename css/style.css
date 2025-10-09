@@ -31,7 +31,7 @@ body {
 }
 
 .logo span {
-  color: #b68c5a;
+  color: #fff;
   font-weight: 600;
 }
 
@@ -54,7 +54,7 @@ body {
 
 .menu-btn.active,
 .menu-btn:hover {
-  color: #b68c5a;
+  color: #fff;
   font-weight: 600;
 }
 

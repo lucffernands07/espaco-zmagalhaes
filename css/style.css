@@ -130,9 +130,9 @@ p {
 .footer a {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   text-decoration: none;
-  color: #fff;
-  gap: 6px;
+  color: black;
 }
 
 .footer a:hover {
@@ -142,11 +142,6 @@ p {
 .footer-icon {
   width: 22px;
   height: 22px;
-}
-
-.footer-left, .footer-right {
-  display: flex;
-  align-items: center;
 }
 
 body {

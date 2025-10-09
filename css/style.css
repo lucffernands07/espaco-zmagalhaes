@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #f7f5f2;
+  background-color: #fff;
   color: #4a3c32;
   line-height: 1.6;
 }
@@ -17,7 +17,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background: #fffaf5;
+  background: #978A7A;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
   z-index: 100;
   text-align: center;
@@ -113,7 +113,7 @@ p {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #b68c5a; /* mesma cor do header */
+  background-color: #978A7A; /* mesma cor do header */
   color: black;
   padding: 12px 30px; /* altura aumentada */
   box-sizing: border-box;

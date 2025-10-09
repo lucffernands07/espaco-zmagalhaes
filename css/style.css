@@ -116,13 +116,15 @@ p {
   background-color: #b68c5a; /* mesma cor do header */
   color: #fff;
   display: flex;
-  justify-content: space-between; /* separa esquerda e direita */
+  justify-content: space-between;
   align-items: center;
-  padding: 10px 30px;
+  padding: 12px 30px; /* altura aumentada */
   box-sizing: border-box;
   font-family: sans-serif;
+  font-size: 14px;
   z-index: 1000;
   box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+  min-height: 50px; /* garante espaço suficiente */
 }
 
 .footer a {
@@ -130,7 +132,7 @@ p {
   align-items: center;
   text-decoration: none;
   color: #fff;
-  gap: 5px; /* reduz o espaço entre ícone e texto */
+  gap: 6px;
 }
 
 .footer a:hover {
@@ -138,8 +140,8 @@ p {
 }
 
 .footer-icon {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
 }
 
 .footer-left, .footer-right {
@@ -148,5 +150,5 @@ p {
 }
 
 body {
-  padding-bottom: 60px; /* evita que o conteúdo fique atrás do footer */
+  padding-bottom: 70px; /* espaço para o footer fixo */
 }
